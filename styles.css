@@ -45,9 +45,23 @@ nav {
     cursor: pointer;
 }
 
-.upper-nav input {
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1.5px solid #233C7B;
     border-radius: 5px;
+    gap: 20px;
+}
+
+.search-box i {
+    font-size: 20px;
+    /* font-weight: 200; */
+    margin-left: 20px;
+}
+
+.upper-nav input {
+    border: none;
     height: 42px;
     width: 1030px;
 }
