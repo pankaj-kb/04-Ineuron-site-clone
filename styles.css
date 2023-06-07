@@ -9,6 +9,10 @@
       background-color: #ffffff;
   }
 
+  * button:hover {
+    cursor: pointer;
+  }
+
 body {
     display: flex;
     flex-direction: column;
@@ -30,17 +34,21 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 90px;
 }
 
 #ineuron-logo {
     height: 41px;
 }
 
+#ineuron-logo:hover {
+    cursor: pointer;
+}
+
 .upper-nav input {
     border: 1.5px solid #233C7B;
     border-radius: 5px;
-    height: 45px;
+    height: 42px;
     width: 1030px;
 }
 
@@ -50,16 +58,21 @@ nav {
     font-weight: 400;
 }
 
+.sign-buttons {
+    display: flex;
+    gap: 20px;
+}
+
 #sign-up {
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     color: #233C7B;
     font-weight: 500;
 }
 
 #sign-in {
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #233C7B;
     color: #ffffff;
     height: 40px;
@@ -72,5 +85,16 @@ nav {
 
 .lower-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.lower-nav p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.lower-nav p:hover{
+    cursor: pointer;
 }
