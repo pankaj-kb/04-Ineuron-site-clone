@@ -98,3 +98,10 @@ nav {
 .lower-nav p:hover{
     cursor: pointer;
 }
+
+.expand-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
