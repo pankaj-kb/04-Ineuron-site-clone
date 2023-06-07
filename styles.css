@@ -6,4 +6,47 @@
       padding: 0px;
       /* border: 0px; */
       font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
   }
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #233C7B;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.upper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#ineuron-logo {
+    height: 41px;
+}
+
+.upper-nav input {
+    border: 1.5px solid #233C7B;
+    border-radius: 5px;
+    height: 45px;
+    width: 1030px;
+}
+
+.upper-nav input::placeholder {
+    font-size: 15px;
+    color: #233C7B;
+    font-weight: 400;
+}
+
+.lower-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
