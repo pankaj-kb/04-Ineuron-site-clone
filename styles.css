@@ -10,113 +10,124 @@
   }
 
   * button:hover {
-    cursor: pointer;
+      cursor: pointer;
   }
 
-body {
-    display: flex;
-    flex-direction: column;
-    color: #233C7B;
-}
+  body {
+      display: flex;
+      flex-direction: column;
+      color: #233C7B;
+  }
 
-/* NAV */
+  /* NAV */
 
-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-top: 20px;
-}
+  nav {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 20px;
+  }
 
-/* Upper Nav */
+  /* Upper Nav */
 
-.upper-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-}
+  .upper-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 90px;
+  }
 
-#ineuron-logo {
-    height: 41px;
-}
+  #ineuron-logo {
+      height: 41px;
+  }
 
-#ineuron-logo:hover {
-    cursor: pointer;
-}
+  #ineuron-logo:hover {
+      cursor: pointer;
+  }
 
-.search-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1.5px solid #233C7B;
-    border-radius: 5px;
-    gap: 20px;
-}
+  .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1.5px solid #233C7B;
+      border-radius: 5px;
+      gap: 20px;
+  }
 
-.search-box i {
-    font-size: 20px;
-    /* font-weight: 200; */
-    margin-left: 20px;
-}
+  .search-box i {
+      font-size: 20px;
+      /* font-weight: 200; */
+      margin-left: 20px;
+  }
 
-.upper-nav input {
-    border: none;
-    height: 42px;
-    width: 1030px;
-}
+  .upper-nav input {
+      border: none;
+      height: 42px;
+      width: 1030px;
+  }
 
-.upper-nav input::placeholder {
-    font-size: 15px;
-    color: #233C7B;
-    font-weight: 400;
-}
+  .upper-nav input::placeholder {
+      font-size: 15px;
+      color: #233C7B;
+      font-weight: 400;
+  }
 
-.sign-buttons {
-    display: flex;
-    gap: 20px;
-}
+  .sign-buttons {
+      display: flex;
+      gap: 20px;
+  }
 
-#sign-up {
-    border: none;
-    font-size: 14px;
-    color: #233C7B;
-    font-weight: 500;
-}
+  #sign-up {
+      border: none;
+      font-size: 14px;
+      color: #233C7B;
+      font-weight: 500;
+  }
 
-#sign-in {
-    border: none;
-    font-size: 14px;
-    background-color: #233C7B;
-    color: #ffffff;
-    height: 40px;
-    width: 100px;
-    border-radius: 8px;
-    font-weight: 500;
-}
+  #sign-in {
+      border: none;
+      font-size: 14px;
+      background-color: #233C7B;
+      color: #ffffff;
+      height: 40px;
+      width: 100px;
+      border-radius: 8px;
+      font-weight: 500;
+  }
 
-/* Lower Nav */
+  /* Lower Nav */
 
-.lower-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-    padding-bottom: 20px;
-}
+  .lower-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 90px;
+      padding-bottom: 25px;
+  }
 
-.lower-nav p {
-    font-size: 16px;
-    font-weight: 600;
-}
+  .lower-nav p {
+      font-size: 16px;
+      font-weight: 600;
+  }
 
-.lower-nav p:hover{
-    cursor: pointer;
-}
+  .lower-nav p:hover {
+      cursor: pointer;
+  }
 
-.expand-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+  .expand-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .banners {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .banners img {
+    width: 100vw;
+    /* height: 90vh; */
+  }
