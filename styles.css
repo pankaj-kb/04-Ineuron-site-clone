@@ -72,6 +72,10 @@
       font-weight: 400;
   }
 
+  /* .upper-nav :focus {
+    shape-outside: none;
+  } */
+
   .sign-buttons {
       display: flex;
       gap: 20px;
@@ -121,13 +125,34 @@
       gap: 10px;
   }
 
-  .banners {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .carousel {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
   }
-
-  .banners img {
-    width: 100vw;
-    /* height: 90vh; */
+  
+  .carousel-inner {
+    display: flex;
+    width: 300%;
+    animation: carousel-slide 20s infinite;
   }
+  
+  .carousel-item {
+    flex: 33.33%;
+  }
+  
+  @keyframes carousel-slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
