@@ -214,3 +214,37 @@
     font-weight: 600;
     color: #454545;
   }
+
+  /* Achivement 2 */
+
+  .achievment-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF0F5;
+    height: 35vh;
+    width: 100%;
+    gap: 100px;
+  }
+
+  .achievment-2-upper {
+    background-color: #EEF0F5;
+  }
+
+  .achievment-2-upper h1 {
+    background-color: #EEF0F5;
+    font-size: 48px;
+  }
+
+  .achievment-2-bottom {
+    background-color: #EEF0F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .achievment-2-bottom img {
+    background-color: #EEF0F5;
+    height: 45px;
+  }
