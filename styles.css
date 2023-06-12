@@ -249,3 +249,61 @@
     background-color: #EEF0F5;
     height: 45px;
   }
+
+
+.hall-of-fame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hall-of-fame h1  {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hall-of-fame-gallary {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hall-of-famer {
+  height: 112px;
+  border: none;
+  border-radius: 100%;
+}
+
+.linkedin-card h1 {
+  font-size: 22px;
+  color: #000F35;
+}
+
+.linkedin-card p {
+  font-size: 14px;
+  color: #454545;
+  font-weight: 600;
+}
+
+.linkedin-card h3 {
+  font-size: 17px;
+  color: #454545;
+  font-weight: 500;
+}
+
+.linkedin-logo {
+  height: 22px;
+}
+
+.view-more {
+  font-size: 16px;
+  color: #3C4958;
+}
