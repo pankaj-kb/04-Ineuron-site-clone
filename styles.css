@@ -281,6 +281,7 @@
   width: 360px;
   gap: 20px;
   border-radius: 20px;
+  box-shadow:#3C4958;
 }
 
 .hall-of-famer {
@@ -313,8 +314,17 @@
   height: 22px;
 }
 
+.linkedin-logo:hover {
+  cursor: pointer;
+}
+
 .view-more {
   font-size: 16px;
   color: #3C4958;
-  padding-top: 100px;
+  padding-top: 40px;
+  font-weight: 600;
+}
+
+.view-more:hover {
+  cursor: pointer;
 }
