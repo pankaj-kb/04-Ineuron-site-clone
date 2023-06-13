@@ -1,75 +1,75 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   * {
-      box-sizing: border-box;
-      margin: 0px;
-      padding: 0px;
-      /* border: 0px; */
-      font-family: 'Poppins', sans-serif;
-      background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* border: 0px; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
   }
 
   * button:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   body {
-      display: flex;
-      flex-direction: column;
-      color: #233C7B;
+    display: flex;
+    flex-direction: column;
+    color: #233C7B;
   }
 
   /* NAV */
 
   nav {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
   }
 
   /* Upper Nav */
 
   .upper-nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
   }
 
   #ineuron-logo {
-      height: 41px;
+    height: 41px;
   }
 
   #ineuron-logo:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   .search-box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1.5px solid #233C7B;
-      border-radius: 5px;
-      gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #233C7B;
+    border-radius: 5px;
+    gap: 20px;
   }
 
   .search-box i {
-      font-size: 20px;
-      /* font-weight: 200; */
-      margin-left: 20px;
+    font-size: 20px;
+    /* font-weight: 200; */
+    margin-left: 20px;
   }
 
   .upper-nav input {
-      border: none;
-      height: 42px;
-      width: 1030px;
+    border: none;
+    height: 42px;
+    width: 1030px;
   }
 
   .upper-nav input::placeholder {
-      font-size: 15px;
-      color: #233C7B;
-      font-weight: 400;
+    font-size: 15px;
+    color: #233C7B;
+    font-weight: 400;
   }
 
   /* .upper-nav :focus {
@@ -77,52 +77,52 @@
   } */
 
   .sign-buttons {
-      display: flex;
-      gap: 20px;
+    display: flex;
+    gap: 20px;
   }
 
   #sign-up {
-      border: none;
-      font-size: 14px;
-      color: #233C7B;
-      font-weight: 500;
+    border: none;
+    font-size: 14px;
+    color: #233C7B;
+    font-weight: 500;
   }
 
   #sign-in {
-      border: none;
-      font-size: 14px;
-      background-color: #233C7B;
-      color: #ffffff;
-      height: 40px;
-      width: 100px;
-      border-radius: 8px;
-      font-weight: 500;
+    border: none;
+    font-size: 14px;
+    background-color: #233C7B;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: 500;
   }
 
   /* Lower Nav */
 
   .lower-nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 90px;
-      padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding-bottom: 25px;
   }
 
   .lower-nav p {
-      font-size: 16px;
-      font-weight: 600;
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .lower-nav p:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   .expand-arrow {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .carousel {
@@ -130,27 +130,30 @@
     height: 80vh;
     overflow: hidden;
   }
-  
+
   .carousel-inner {
     display: flex;
     width: 300%;
     animation: carousel-slide 20s infinite;
   }
-  
+
   .carousel-item {
     flex: 33.33%;
   }
-  
+
   @keyframes carousel-slide {
     0% {
       transform: translateX(0);
     }
+
     33.33% {
       transform: translateX(-100%);
     }
+
     66.66% {
       transform: translateX(-200%);
     }
+
     100% {
       transform: translateX(0);
     }
@@ -199,7 +202,7 @@
     align-items: center;
     gap: 15px;
   }
-  
+
   .achievment-1-bottom-item img {
     height: 160px;
   }
@@ -251,83 +254,123 @@
   }
 
 
-.hall-of-fame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 80px;
-  height: 90vh;
-}
+  .hall-of-fame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    height: 90vh;
+  }
 
-.hall-of-fame h1  {
-  font-size: 48px;
-  font-weight: 600;
-}
+  .hall-of-fame h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
 
-.hall-of-fame-gallary {
-  display: flex;
-  flex-direction: row;
-  padding-top: 80px;
-  gap: 60px;
-}
+  .hall-of-fame-gallary {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 60px;
+  }
 
-.linkedin-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #FBFEFF;
-  height: 360px;
-  width: 360px;
-  gap: 20px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px 10px #F3F6F7;
-}
+  .linkedin-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFEFF;
+    height: 360px;
+    width: 360px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 10px #F3F6F7;
+  }
 
-.hall-of-famer {
-  height: 112px;
-  border: none;
-  border-radius: 100%;
-}
+  .hall-of-famer {
+    height: 112px;
+    border: none;
+    border-radius: 100%;
+  }
 
-.linkedin-card h1 {
-  font-size: 22px;
-  color: #000F35;
-  text-align: center;
-}
+  .linkedin-card h1 {
+    font-size: 22px;
+    color: #000F35;
+    text-align: center;
+  }
 
-.linkedin-card p {
-  font-size: 14px;
-  color: #454545;
-  font-weight: 400;
-  text-align: center;
-}
+  .linkedin-card p {
+    font-size: 14px;
+    color: #454545;
+    font-weight: 400;
+    text-align: center;
+  }
 
-.linkedin-card h3 {
-  font-size: 17px;
-  color: #454545;
-  font-weight: 500;
-  text-align: center;
-}
+  .linkedin-card h3 {
+    font-size: 17px;
+    color: #454545;
+    font-weight: 500;
+    text-align: center;
+  }
 
-.linkedin-logo {
-  height: 22px;
-}
+  .linkedin-logo {
+    height: 22px;
+  }
 
-.linkedin-logo:hover {
-  cursor: pointer;
-}
+  .linkedin-logo:hover {
+    cursor: pointer;
+  }
 
-.view-more {
-  font-size: 16px;
-  color: #3C4958;
-  padding-top: 40px;
-  font-weight: 600;
-  background: none;
-}
+  .view-more {
+    font-size: 16px;
+    color: #3C4958;
+    padding-top: 40px;
+    font-weight: 600;
+    background: none;
+  }
 
-.view-more:hover {
-  cursor: pointer;
-}
+  .view-more:hover {
+    cursor: pointer;
+  }
 
-/* live program */
+  /* live program */
+
+
+  .live-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    height: 90vh;
+  }
+
+  .live-program h1 {
+    font-size: 48px;
+    color: #233C7B;
+    text-align: center;
+  }
+
+  #live-program-sub-heading {
+    font-size: 18px;
+    color: #3C4958;
+  }
+
+  .live-program-gallary {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 60px;
+  }
+
+  .live-program-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFEFF;
+    height: 352px;
+  }
+
+  .live-program-card img {
+    height: 189px;
+  }
