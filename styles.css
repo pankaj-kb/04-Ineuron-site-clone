@@ -323,8 +323,11 @@
   color: #3C4958;
   padding-top: 40px;
   font-weight: 600;
+  background: none;
 }
 
 .view-more:hover {
   cursor: pointer;
 }
+
+/* live program */
